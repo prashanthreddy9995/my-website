@@ -35,15 +35,25 @@
     <!-- Rest of your HTML content goes here -->
 
     <section id="home">
-        <!-- Your image slider here -->
-        <div class="slider">
-            <div class="slider-content">
-                <img src="images/p1.jfif" alt="Slider Image 1">
-                <img src="images/p2.jpg" alt="Slider Image 2">
-                <img src="images/p3.jpg" alt="Slider Image 3">
-                <!-- Add more slider images as needed -->
-            </div>
-        </div>
+        <link rel="stylesheet" href="ism/css/my-slider.css"/>
+<script src="ism/js/ism-2.2.min.js"></script>
+
+<div class="ism-slider" data-buttons="false" id="my-slider">
+  <ol>
+    <li>
+      <img src="images/slider-EE.png">
+      <a class="ism-caption ism-caption-0" href="{{"/overview/" | relative_url}}" target="_self" data-delay='100' style="color:white;">Learn More</a>
+    </li>
+    <li>
+      <img src="images/Slider-GetConnected.png">
+      <a class="ism-caption ism-caption-0" href="https://dxc.workplace.com/groups/EDGEConnect/" target="_self" data-delay='100' style="color:white;">Contribute</a>
+    </li>
+    <li>
+      <img src="images/Slider-Ecosystem.png">
+      <a class="ism-caption ism-caption-0" href="https://dxcportal.sharepoint.com/sites/AETT/SitePages/Home.aspx" target="_self" data-delay='100' style="color:white;">Onboarding</a>
+    </li>
+  </ol>
+</div>
     </section>
 
     <section id="about">
