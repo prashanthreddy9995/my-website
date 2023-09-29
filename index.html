@@ -6,18 +6,41 @@
     <link rel="stylesheet" href="css/style.css">
     <title>AVP</title>
 </head>
-      <header>
-        <h1>Welcome to Ayyavaripalle website</h1>
+<body>
+    <header>
+        <h1>Welcome to Ayyavaripalle Website</h1>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#service-1">Service 1</a></li>
+                        <li><a href="#service-2">Service 2</a></li>
+                        <li><a href="#service-3">Service 3</a></li>
+                        <!-- Add more service items as needed -->
+                    </ul>
+                </li>
                 <li><a href="#contact">Contact</a></li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropdown-toggle">Dropdown</button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Item 1</a></li>
+                            <li><a href="#">Item 2</a></li>
+                            <li><a href="#">Item 3</a></li>
+                            <!-- Add more dropdown items as needed -->
+                        </ul>
+                    </div>
+                </li>
                 <li><a href="payment/payment.html">Payment</a></li>
             </ul>
         </nav>
     </header>
+
+   
+
 
     <section id="home">
         <!-- Your image slider here -->
@@ -35,16 +58,6 @@
 
     <section id="services">
         <h2>Our Services</h2>
-        <!-- Add a dropdown menu here -->
-        <div class="dropdown">
-            <button class="dropdown-toggle">Select a Service</button>
-            <ul class="dropdown-menu">
-                <li><a href="#service-1">Service 1</a></li>
-                <li><a href="#service-2">Service 2</a></li>
-                <li><a href="#service-3">Service 3</a></li>
-                <!-- Add more service items as needed -->
-            </ul>
-        </div>
     </section>
 
     <!-- Add your service sections here -->
@@ -76,7 +89,8 @@
     </section>
 
     <footer>
-        <p>&copy; 2023 Your Website</p>
+        <p>&copy; 2023 Your Website
+        site owner:PRASHANTH REDDY</p>
     </footer>
 
     <script src="js/script.js"></script>
