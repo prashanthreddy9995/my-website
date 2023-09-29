@@ -6,42 +6,32 @@
     <link rel="stylesheet" href="css/style.css">
     <title>AVP</title>
 </head>
+ 
 <body>
-    <header>
-        <h1>Welcome to Ayyavaripalle Website</h1>
-        <nav>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo">
+            <img src="logo.png" alt="Your Logo">
+        </div>
+        <nav class="main-nav">
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle">Services</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#service-1">Service 1</a></li>
-                        <li><a href="#service-2">Service 2</a></li>
-                        <li><a href="#service-3">Service 3</a></li>
-                        <!-- Add more service items as needed -->
-                    </ul>
-                </li>
-                <li><a href="#contact">Contact</a></li>
-                <li>
-                    <div class="dropdown">
-                        <button class="dropdown-toggle">Dropdown</button>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Item 1</a></li>
-                            <li><a href="#">Item 2</a></li>
-                            <li><a href="#">Item 3</a></li>
-                            <!-- Add more dropdown items as needed -->
-                        </ul>
+                    <a href="#services">Services</a>
+                    <div class="dropdown-content">
+                        <a href="#service-1">Service 1</a>
+                        <a href="#service-2">Service 2</a>
+                        <a href="#service-3">Service 3</a>
                     </div>
                 </li>
-                <li><a href="payment/payment.html">Payment</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+        <div class="cta">
+            <a href="#get-started" class="btn-primary">Get Started</a>
+        </div>
     </header>
-
-   
-
-
     <section id="home">
         <!-- Your image slider here -->
         <div class="slider">
@@ -58,22 +48,6 @@
 
     <section id="services">
         <h2>Our Services</h2>
-    </section>
-
-    <!-- Add your service sections here -->
-    <section id="service-1">
-        <h3>Service 1</h3>
-        <!-- Your content for Service 1 here -->
-    </section>
-
-    <section id="service-2">
-        <h3>Service 2</h3>
-        <!-- Your content for Service 2 here -->
-    </section>
-
-    <section id="service-3">
-        <h3>Service 3</h3>
-        <!-- Your content for Service 3 here -->
     </section>
 
     <section id="contact">
