@@ -35,6 +35,7 @@
     <section id="home">
         <!-- Your image slider here -->
         <div class="slider">
+            <div class="slider-content">
             <img src="images/p1.jfif" alt="Slider Image 1">
              <img src="images/p2.jpg" alt="Slider Image 1">
              <img src="images/p3.jpg" alt="Slider Image 1">
@@ -58,6 +59,7 @@
     </section>
 
     <section id="vinayaka-chavithi">
+    
         <h2>Vinayaka Chavithi</h2>
         <p>Vinayaka Chavithi, also known as Ganesh Chaturthi, is a Hindu festival celebrated in honor of Lord Ganesha, the elephant-headed God of wisdom and prosperity. It usually falls in the Hindu month of Bhadrapada, which typically corresponds to August or September in the Gregorian calendar.</p>
         <p>During Vinayaka Chavithi, devotees bring home idols of Lord Ganesha and worship them with great devotion. The festival lasts for several days, with elaborate rituals, prayers, and offerings. On the final day, the idol is immersed in water, symbolizing the departure of Lord Ganesha.</p>
@@ -68,24 +70,7 @@
         <p>&copy; 
         site owner:PRASHANTH REDDY</p>
     </footer>
-<script>
-    var slideIndex = 0;
-    showSlides();
 
-    function showSlides() {
-        var i;
-        var slides = document.getElementsByClassName("slider");
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        slideIndex++;
-        if (slideIndex > slides.length) {
-            slideIndex = 1;
-        }
-        slides[slideIndex - 1].style.display = "block";
-        setTimeout(showSlides, 3000); // Change image every 3 seconds (adjust as needed)
-    }
-</script>
 
     <script src="js/script.js"></script>
 </body>
