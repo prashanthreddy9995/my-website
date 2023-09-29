@@ -4,10 +4,11 @@ body {
     font-family: Arial, sans-serif;
 }
 header {
-    background-color: #FF0000; /* Replace with your desired color code */
-    color: #fff;
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
     padding: 20px;
 }
+
 
 nav ul {
     list-style: none;
